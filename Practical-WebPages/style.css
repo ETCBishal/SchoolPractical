@@ -12,15 +12,18 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-color: #9be5f596;
 }
 
 .profile {
   width: 350px;
   height: 350px;
-  background-image: url(user.jpg);
+  /* background-image: url(user.jpg); */
+  background-image: url(icons/school.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   animation: animate 6s ease-in-out infinite;
+  filter: drop-shadow(2px 3px 5px gray);
 }
 .container {
   width: 70vw;
@@ -45,6 +48,7 @@ body {
     top: 110px;
     text-transform: capitalize;
     width: fit-content;
+    font-weight: 500;
 }
 
 .links ol a{
@@ -57,7 +61,8 @@ body {
 }
 
 .heading h1{
-    background: linear-gradient(135deg, #ea7b0c, #f1c122e5);
+    /* background: linear-gradient(135deg, #ea7b0c, #f1c122e5); */
+    background: linear-gradient(135deg, #0c7eea, #8ff122e5);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: capitalize;
@@ -74,7 +79,8 @@ body {
 
 .school-details h4{
     filter: drop-shadow(0px 6px 17px #44439B);
-    background: linear-gradient(135deg, #4A90E2, #8E44AD);
+    /* background: linear-gradient(135deg, #4A90E2, #8E44AD); */
+    background: linear-gradient(135deg, #fb3a3a, #05abe9);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
