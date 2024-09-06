@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body{
+    font-family: 'Poppins';
+}
+
+.helper{
+    position: fixed;
+    top: 0;
+}
+
+#wraper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#scoreBar{
+    background-color: rgb(122, 237, 214);
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transform: translate(-2vw);
+}
+
+center{
+    position: relative;
+    top: 20px;
+}
+
+center h1{
+    letter-spacing: 2px;
+}
+
+.questions{
+    width: 670px;
+    margin: 20px 0;
+    border-radius: 5px;
+    background-color: #99009329;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 17px;
+}
+
+div li{
+    font-weight: 500;
+}
+
+.buttons{
+    display: flex;
+    gap: 50px;
+    margin: 20px 0;
+}
+
+
+#submit{
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#reset{
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+    background-color: red;
+    color: black;
+    cursor: pointer;
+}
+
+.again{
+    color: rgb(25, 186, 222);
+}
